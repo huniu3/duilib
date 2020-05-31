@@ -69,7 +69,7 @@ public:
 		}
 		else if(msg.sType==_T("setfocus"))
 		{
-			CStdString name = msg.pSender->GetName();
+			CDuiString name = msg.pSender->GetName();
 			CTabLayoutUI* pControl = static_cast<CTabLayoutUI*>(m_pm.FindControl(_T("switch")));
 			if(name==_T("examine"))
 				pControl->SelectItem(0);
@@ -180,7 +180,7 @@ public:
 		MONITORINFO oMonitor = {};
 		oMonitor.cbSize = sizeof(oMonitor);
 		::GetMonitorInfo(::MonitorFromWindow(*this, MONITOR_DEFAULTTOPRIMARY), &oMonitor);
-		auxClass::CRect rcWork = oMonitor.rcWork;
+		CDuiRect rcWork = oMonitor.rcWork;
 		rcWork.Offset(-rcWork.left, -rcWork.top);
 
 		LPMINMAXINFO lpMMI = (LPMINMAXINFO) lParam;
