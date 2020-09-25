@@ -36,3 +36,11 @@ DuiLib/Build/
 lib/
 QQDemo/QQDemo.aps
 QQDemo/Debug/
+FlashDemo/Release/
+GameDemo/Release/
+ListDemo/Release/
+*.aps
+MFCDemo/Debug/
+MFCDemo/Release/
+QQDemo/Release/
+Release/
