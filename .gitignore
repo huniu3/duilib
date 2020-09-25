@@ -28,3 +28,11 @@ FlashDemo/FlashDemo.vcproj.wengmq-PC.wengmq.user
 QQDemo/Debug/mt.dep
 *.dep
 *.map
+.vs/
+360SafeDemo/Debug/
+360SafeDemo/Release/
+bin/
+DuiLib/Build/
+lib/
+QQDemo/QQDemo.aps
+QQDemo/Debug/
